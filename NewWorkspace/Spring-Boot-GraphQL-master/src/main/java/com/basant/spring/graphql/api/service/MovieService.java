@@ -16,6 +16,8 @@ public class MovieService {
 	private MovieRepository repository;
 
 	@PostConstruct
+	
+	
 	public void initMovies() {
 		List<Movie> movies = new ArrayList<>();
 		movies.add(new Movie("M17TZ", "Tiger Zinda Hai",
